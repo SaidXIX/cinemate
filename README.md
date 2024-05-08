@@ -1,8 +1,39 @@
-# React + Vite
+# Cinemate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that allows users to keep track of movies, Tv Shows and browse through the latest trends
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Installation](#installation)
+- [Usage](#usage)
+
+## Installation
+
+To install and run this project locally, follow these steps:
+
+1. Clone the repository to your local machine using the following command:
+   ```bash
+   git clone https://github.com/SaidXIX/cinemate.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd cinemate
+   ```
+
+3. Install the dependencies using npm or yarn:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+## Usage
+
+Once the dependencies are installed, you can run the project locally using the following command:
+
+```bash
+npm run dev
+```
+
+This will start the development server and open the project in your default web browser. You can view the project at [http://localhost:5173](http://localhost:5173).
