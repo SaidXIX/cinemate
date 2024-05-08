@@ -1,0 +1,5 @@
+export { default as Home } from './admin/home/index'
+export { default as Trending } from './admin/trending/index'
+export { default as Favorite } from './admin/favorite/index'
+export { default as Watchlist } from './admin/watchlist/index'
+export { default as Help } from './admin/help/index'
