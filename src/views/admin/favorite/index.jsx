@@ -169,7 +169,6 @@ const FavoriteSection = () => {
               </Box>
               <Text fontWeight='bold' fontSize='md' mt='2'>
                 {favorite.name}
-                {favorite.id}
               </Text>
             </Box>
           </GridItem>
