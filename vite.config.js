@@ -17,10 +17,6 @@ export default defineConfig({
         replacement: path.resolve(__dirname, 'src/components')
       },
       {
-        find: '@i18n',
-        replacement: path.resolve(__dirname, 'src/i18n')
-      },
-      {
         find: '@layouts',
         replacement: path.resolve(__dirname, 'src/layouts')
       },
@@ -31,10 +27,6 @@ export default defineConfig({
       {
         find: '@themes',
         replacement: path.resolve(__dirname, 'src/themes')
-      },
-      {
-        find: '@utils',
-        replacement: path.resolve(__dirname, 'src/utils')
       },
       {
         find: '@views',

@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-undef */
 import { useRef, useEffect } from 'react'
 
