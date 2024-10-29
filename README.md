@@ -10,7 +10,6 @@ A React application that allows users to keep track of movies, Tv Shows and brow
 ## Installation
 
 To install and run this project locally, follow these steps:
-
 1. Clone the repository to your local machine using the following command:
    ```bash
    git clone https://github.com/SaidXIX/cinemate.git
@@ -20,8 +19,13 @@ To install and run this project locally, follow these steps:
    ```bash
    cd cinemate
    ```
+3. Then you need to generate the **TMDB** Api key and Access Token through this link: [TMDB API](https://developer.themoviedb.org/reference/intro/getting-started) , then create a **.env** file with the following variables
+   ```bash
+   VITE_URL_TMDB_API_KEY='your generated api key'
+   VITE_URL_TMDB_API_ACCESS_TOKEN='your generated access token'
+   ```
 
-3. Install the dependencies using npm or yarn:
+4. Install the dependencies using npm or yarn:
    ```bash
    npm install
    # or
